@@ -3,6 +3,7 @@ import Title from "@/components/title/Title"
 import Experiences from "@/components/experiences/Experiences"
 import Projects from "@/components/projects/Projects"
 import Footer from "@/components/footer/Footer"
+import Contact from "@/components/contact/Contact"
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
       <div className="w-96 md:w-[35rem] px-5">
         <Title />
         <Experiences />
-        <Projects />
+        {/* <Projects /> */}
+        <Contact />
       </div>
       <Footer />
     </main>
